@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 100px 0 0 0;
+    background-color: rgba(128, 128, 128, 0.25);
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.3)
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo img {
+    width: 200px;
+    height: auto;
+    margin: 0 20px 0 0;
+  }
+  
+  .logo p {
+    font-size: 23px;
+  font-family: Snell Roundhand, cursive;
+  }
+  
+  #nav-bar {
+    width: 600px;;
+    height: auto;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .nav-link:hover {
+    color: rgba(100, 100, 200, 1);
+  }
+  
+  iframe {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    margin: 30px auto;
+    display: flex;
+  }
+  
+  form {
+    width: 62%;
+    margin: 150px auto;
+    display: block;
+    position: relative;
+  }
+  
+  #email {
+    display:flex;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  
+  #submit {
+    display:flex;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 600px) {
+    iframe {
+      width: 300px;
+      height: 650px;
+    }
+  }
